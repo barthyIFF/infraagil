@@ -1,0 +1,13 @@
+---
+- name: Inst docker CE
+  hosts: docker 
+  tasks: 
+    - name: Download do script
+      shell: 'curl -fsSL https://get.docker.com -o get-docker.sh' 
+   
+    - name: INstalando o docker
+      shell: 'sh get-docker.sh'
+    
+   - name: INstalando o docker
+      shell: 'sh get-docker.sh'
+
